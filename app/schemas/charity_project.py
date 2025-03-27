@@ -1,8 +1,8 @@
 from datetime import datetime
+from pydantic import BaseModel, Extra, Field, PositiveInt
 from typing import Optional
 
 from app.constants import MAX_NAME_LEN, MIN_NAME_LEN
-from pydantic import BaseModel, Extra, Field, PositiveInt
 
 
 class CharityProjectBase(BaseModel):

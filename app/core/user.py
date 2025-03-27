@@ -47,7 +47,7 @@ class UserManager(IntegerIDMixin, BaseUserManager[User, int]):
     ) -> None:
         if len(password) < PASSWORD_MIN_LEN:
             raise InvalidPasswordException(
-                reason=f'Password should be at least'
+                reason='Password should be at least'
                        f'{PASSWORD_MIN_LEN} characters'
             )
         if user.email in password:
@@ -58,7 +58,7 @@ class UserManager(IntegerIDMixin, BaseUserManager[User, int]):
     async def on_after_register(
             self, user: User, request: Optional[Request] = None
     ):
-        print(f'Пользователь {user.email} зарегистрирован.')
+        ...
 
 
 async def get_user_manager(user_db=Depends(get_user_db)):

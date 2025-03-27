@@ -8,7 +8,6 @@ from app.core.db import get_async_session
 from app.core.google_client import get_service
 from app.core.user import current_superuser
 from app.crud import charityproject_crud
-
 from app.utils import (
     format_time_in_days, prepare_data, spreadsheets_create,
     set_user_permissions, spreadsheets_update_value
