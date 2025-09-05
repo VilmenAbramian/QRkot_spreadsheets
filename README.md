@@ -1,5 +1,5 @@
 # Приложение QRKot
-<img width="1437" alt="sprint2_picture1_1672399951" src="https://github.com/user-attachments/assets/f0c1e150-a02f-4613-9eb0-9d55613da085" />
+<img width="2874" height="1615" alt="cats" src="https://github.com/user-attachments/assets/44f2c762-1df8-42b8-b939-b3e8250ebecc" />
 
 
 ## Оглавление
